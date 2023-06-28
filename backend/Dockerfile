@@ -10,5 +10,3 @@ RUN pip install --upgrade pip
 RUN pip install -r requirements.txt --no-cache-dir
 
 COPY . /backend
-
-CMD ["bash", "-c", "python3 manage.py runserver"]
